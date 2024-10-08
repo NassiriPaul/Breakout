@@ -7,6 +7,8 @@ get_key() {
         case "$key" in
             "[A") echo "up";;
             "[B") echo "down";;
+            "[D") echo "left";;
+            "[C") echo "right";;
         esac
     fi
 }
